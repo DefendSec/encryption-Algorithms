@@ -2,8 +2,7 @@
 
 ## One-Time Pad (OTP) Encryption
 
-Input pad and cipher/plain and it will run the otp algorithm on it.
-Input in hex and text supported
+Input pad and cipher/plain and it will run the otp algorithm on it.<br>Input in hex and text supported
 
 ## Disclaimer
 
