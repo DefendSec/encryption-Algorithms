@@ -43,6 +43,12 @@ except:
     quit()
 
 
+# Adjust pad to have bigger or same length as plain/cipher
+length = len(pad)
+while len(pad) < len(clain):
+    pad += pad[:length]
+
+
 
 
 output = bytes(clain[i] ^ pad[i] for i in range(0, len(clain)))
