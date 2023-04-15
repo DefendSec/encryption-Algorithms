@@ -28,10 +28,10 @@ else:
 
 # User input of plain/cipher
 
-text = input("Pad in [H]ex or [t]ext: ").lower() in ["text", "t"]
+text = input("Plain/Cipher in [H]ex or [t]ext: ").lower() in ["text", "t"]
 format = "text" if text==True else "hex";
 
-userInput = input(f"Enter plain/cipher ({format})")
+userInput = input(f"Enter plain/cipher ({format}) ")
 
 try:
     if text:
