@@ -1,6 +1,8 @@
 # Encryption Algorithms
 
-## One-Time Pad (OTP) Encryption
+## A collection of various encryption algorithms 
+
+### One-Time Pad (OTP) Encryption
 
 Input pad and cipher/plain and it will run the otp algorithm on it.<br>Input in hex and text supported
 
